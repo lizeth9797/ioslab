@@ -2,7 +2,7 @@
 curso de swift
 
 
-
+```
 import UIKit
 
 var str = "Hello, playground"
@@ -14,12 +14,14 @@ enum meses{
 var mes = meses.enero😱
 
 print("estamos en:",mes)
+```
+
 
 
 
 // **** ESTRUCTURAS ****
 
-
+```
 struct Instrumentos
 {
     var violin: String
@@ -30,10 +32,13 @@ struct Instrumentos
 var orquesta = Instrumentos(violin: "4 cuerdas", piano: 777, arpa: 3.1416 )
 
 print(orquesta.violin)
+```
+
 
 
 // **** CLASE Y HERENCIA ****
 
+```
 class Orquesta
 {
     var instrumento: String
@@ -57,11 +62,12 @@ class Violin: Orquesta{
 }
 
 
-
 var cuerdas = Violin(instrumento: "Violin", numero_cuerdas: 4)
 
 print(cuerdas.instrumento)
 print("tengo", cuerdas.numero_cuerdas, "cuerdas")
 cuerdas.sonido()
+
+```
 
 // tarea: enum, struct, clase y herencia ejemplo todo en 1, intentar meter sonido al codigo
