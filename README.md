@@ -71,3 +71,15 @@ cuerdas.sonido()
 ```
 
 // tarea: enum, struct, clase y herencia ejemplo todo en 1, intentar meter sonido al codigo
+
+
+
+
+
+
+git credential-osxkeychain erase
+host=github.com
+protocol=https
+
+
+https://appsandbiscuits.com/move-between-view-controllers-with-segues-ios-9-7e231159e8f4
