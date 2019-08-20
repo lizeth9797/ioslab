@@ -83,3 +83,10 @@ protocol=https
 
 
 https://appsandbiscuits.com/move-between-view-controllers-with-segues-ios-9-7e231159e8f4
+
+
+
+https://color.adobe.com/es/trends
+
+
+http://www.codingexplorer.com/segue-swift-view-controllers/
