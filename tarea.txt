@@ -1,3 +1,17 @@
 https://github.com/lammertw/SegueColorSample
 
- 
+ Calculadora con tabbedapp example
+ *suma
+ *resta
+ *modulo  /
+ *par o impar
+
+ 4 view controllers conectados en relationship -view controller
+
+
+Next class page controll
+
+
+**** color items
+
+

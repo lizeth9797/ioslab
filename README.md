@@ -90,3 +90,8 @@ https://color.adobe.com/es/trends
 
 
 http://www.codingexplorer.com/segue-swift-view-controllers/
+
+https://color.adobe.com/es/explore
+
+https://www.flaticon.com/
+
