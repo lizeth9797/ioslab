@@ -32,7 +32,7 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Item-->
+        <!--Suma-->
         <scene sceneID="7ch-6W-Ai7">
             <objects>
                 <viewController id="6sk-Ly-bgi" customClass="ViewControllerSuma" customModule="tabbedapp" customModuleProvider="target" sceneMemberID="viewController">
@@ -53,6 +53,9 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="="/>
+                                <connections>
+                                    <action selector="suma:" destination="6sk-Ly-bgi" eventType="touchUpInside" id="QFn-oa-VjU"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QvI-sP-ulz">
                                 <rect key="frame" x="20" y="287" width="140" height="30"/>
@@ -87,13 +90,18 @@
                         <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6SU-7p-HJ3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="plus" id="DY1-A6-Lsf"/>
+                    <tabBarItem key="tabBarItem" title="Suma" image="plus" id="DY1-A6-Lsf"/>
+                    <connections>
+                        <outlet property="result" destination="8uV-IP-SqU" id="PCz-Qd-m9E"/>
+                        <outlet property="var1" destination="QvI-sP-ulz" id="mIT-aC-Wg5"/>
+                        <outlet property="var2" destination="aIj-ft-pHf" id="rVf-Nx-VTd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zmm-Bu-1VX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="860.86956521739137" y="-472.09821428571428"/>
         </scene>
-        <!--Item-->
+        <!--Resta-->
         <scene sceneID="eqM-Gl-P64">
             <objects>
                 <viewController id="Dem-yo-p6V" customClass="ViewControllerResta" customModule="tabbedapp" customModuleProvider="target" sceneMemberID="viewController">
@@ -135,6 +143,9 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="="/>
+                                <connections>
+                                    <action selector="resta:" destination="Dem-yo-p6V" eventType="touchUpInside" id="8aq-TD-r5I"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xV3-ct-HlQ">
                                 <rect key="frame" x="143" y="606" width="132" height="54"/>
@@ -148,13 +159,18 @@
                         <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="oDG-hv-kGC"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="subtract" id="q0n-KR-T2j"/>
+                    <tabBarItem key="tabBarItem" title="Resta" image="subtract" id="q0n-KR-T2j"/>
+                    <connections>
+                        <outlet property="result" destination="xV3-ct-HlQ" id="qdT-9d-lwm"/>
+                        <outlet property="var1" destination="sfg-ec-ykM" id="jhO-ph-CJA"/>
+                        <outlet property="var2" destination="0JZ-ZG-UU5" id="d9r-9c-PHE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="na6-W6-fkM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="860.86956521739137" y="211.60714285714286"/>
         </scene>
-        <!--Item-->
+        <!--Par/Impar-->
         <scene sceneID="JDb-1Z-v4d">
             <objects>
                 <viewController id="9Tn-DX-XDd" customClass="ViewControllerPar" customModule="tabbedapp" customModuleProvider="target" sceneMemberID="viewController">
@@ -191,6 +207,9 @@
                                 <state key="normal" title="Par o Impar">
                                     <color key="titleColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="par:" destination="9Tn-DX-XDd" eventType="touchUpInside" id="JgW-GE-dOc"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tu número es:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVq-P0-Mcc">
                                 <rect key="frame" x="36" y="622" width="209" height="42"/>
@@ -210,13 +229,17 @@
                         <color key="backgroundColor" red="0.72549019607843135" green="0.67450980392156867" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="Qmm-r8-0vg"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="non" id="ad8-99-3fY"/>
+                    <tabBarItem key="tabBarItem" title="Par/Impar" image="non" id="ad8-99-3fY"/>
+                    <connections>
+                        <outlet property="result" destination="CiL-ej-bbf" id="s2y-2k-uIV"/>
+                        <outlet property="var1" destination="vGX-kf-cvh" id="hka-Kq-uGP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JlQ-X8-sv1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="950.89285714285711"/>
         </scene>
-        <!--Item-->
+        <!--Modulo-->
         <scene sceneID="jGw-kG-OAZ">
             <objects>
                 <viewController id="7pK-Ur-Saz" customClass="ViewControllerModulo" customModule="tabbedapp" customModuleProvider="target" sceneMemberID="viewController">
@@ -232,28 +255,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="L" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBl-tL-Wbw">
-                                <rect key="frame" x="136" y="85" width="247" height="326"/>
+                                <rect key="frame" x="149" y="184" width="247" height="326"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="400"/>
+                                <rect key="contentStretch" x="0.10000000000000001" y="0.14999999999999999" width="0.94999999999999996" height="0.69999999999999996"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="350"/>
                                 <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XPp-5F-FgM">
-                                <rect key="frame" x="20" y="295" width="117" height="30"/>
+                                <rect key="frame" x="20" y="309" width="117" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kQ-5E-WxI">
-                                <rect key="frame" x="136" y="450" width="130" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Modulo">
-                                    <color key="titleColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAk-Yy-eNy">
                                 <rect key="frame" x="141" y="618" width="132" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -261,25 +276,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l" translatesAutoresizingMaskIntoConstraints="NO" id="dMy-n8-1XU">
-                                <rect key="frame" x="87" y="439" width="240" height="270"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kj6-8m-oRi">
-                                <rect key="frame" x="214" y="295" width="117" height="30"/>
+                                <rect key="frame" x="214" y="309" width="117" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kQ-5E-WxI">
+                                <rect key="frame" x="149" y="473" width="130" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Modulo">
+                                    <color key="titleColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="modulo:" destination="7pK-Ur-Saz" eventType="touchUpInside" id="Dhv-A7-ZM1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.85490196078431369" green="0.67450980392156867" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Fnv-oU-Osg"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="modul" id="LER-ZP-iFJ"/>
+                    <tabBarItem key="tabBarItem" title="Modulo" image="modul" id="LER-ZP-iFJ"/>
                     <connections>
                         <outlet property="label" destination="cBl-tL-Wbw" id="vjZ-N8-iUP"/>
+                        <outlet property="result" destination="DAk-Yy-eNy" id="FoE-8j-Vg4"/>
+                        <outlet property="var1" destination="XPp-5F-FgM" id="MpB-Ob-O0t"/>
+                        <outlet property="var2" destination="kj6-8m-oRi" id="XY9-l2-Iqj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BoX-1q-Iod" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -288,7 +314,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="l" width="600" height="600"/>
         <image name="modul" width="32" height="32"/>
         <image name="non" width="32" height="32"/>
         <image name="plus" width="32" height="32"/>

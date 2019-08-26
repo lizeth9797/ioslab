@@ -13,18 +13,21 @@ class ViewControllerSuma: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBOutlet weak var var1: UITextField!
+    @IBOutlet weak var var2: UITextField!
+    @IBOutlet weak var result: UILabel!
+    
+    
+    @IBAction func suma(_ sender: Any) {
+        
+        var n1:Float = 0.0
+        var n2:Float = 0.0
+        n1 = Float(var1.text ?? "inválido") ?? 0
+        n2 = Float(var2.text ?? "inválido") ?? 0
+        result.text = String(n1+n2)
+        
     }
-    */
-
+    
 }
