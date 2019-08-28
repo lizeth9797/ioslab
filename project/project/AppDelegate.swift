@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  project
 //
-//  Created by CEDAM20 on 8/27/19.
-//  Copyright © 2019 klomCompany. All rights reserved.
+//  Created by CDAM08 on 8/28/19.
+//  Copyright © 2019 KlomCompany. All rights reserved.
 //
 
 import UIKit
