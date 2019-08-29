@@ -15,6 +15,21 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet weak var radio: UITextField!
+    @IBOutlet weak var area_result: UILabel!
+    @IBOutlet weak var perimetro_result: UILabel!
+    
+    
+    @IBAction func area(_ sender: Any) {
+        var rad: Float=0.0
+        rad = Float(radio.text ?? "inválido") ?? 0
+        area_result.text = String((Float.pi) * (rad*rad))
+    }
+    
+    @IBAction func perimetro(_ sender: Any) {
+        var rad: Float=0.0
+        rad = Float(radio.text ?? "inválido") ?? 0
+        perimetro_result.text = String(2*Float.pi*rad)
+    }
 }
 

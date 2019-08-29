@@ -21,7 +21,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     
     
     for i in 0..<imageArray.count
-    {
+      {
         let imageView = UIImageView()
         imageView.contentMode = .scaleToFill
         //te rellena el espacio que asignaste a tu scrollview
@@ -34,7 +34,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         //cada que cambie de imagen va a ajustar la dimension
         scrollview.contentSize.width = view.frame.size.width*CGFloat(i+1)
         scrollview.addSubview(imageView)
-    }
+      }
     }
     
     func scrollViewDidScroll(_ scrollview: UIScrollView){
