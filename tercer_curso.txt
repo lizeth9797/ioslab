@@ -1,0 +1,13 @@
+La diferencia entre una clase y una estructura
+Clase: 
+- Tiene herencia y los objetos NO cambian
+
+
+Estructura:
+- No tiene herencia, no necesita un init, los objetos pueden cambiar de valor, se declaran como estáticos
+
+
+
+60% proyecto
+30% examen
+20% tareas (10% extra)
