@@ -24,11 +24,13 @@ class ViewController: UIViewController {
     }
     @IBAction func stepper(_ sender: UIStepper) {
         label2.text=String(Int(sender.value))
-        if sender.value == stepper_outlet.maximumValue{
+       /* if sender.value == stepper_outlet.maximumValue{
             sender.value = stepper_outlet.minimumValue
         }else if sender.value == stepper_outlet.minimumValue{
             sender.value = stepper_outlet.maximumValue
-        }
+        }*/
+        stepper_outlet.wraps = true
+        stepper_outlet.autorepeat = true
         
     }
    
