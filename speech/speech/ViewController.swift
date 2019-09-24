@@ -14,31 +14,25 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-      
+        let prenom = AVSpeechSynthesizer()
+        let habla1: AVSpeechUtterance = AVSpeechUtterance(string: "Bienvenido a tu historia!, ¿Cómo te llamas?")
+        habla1.rate=AVSpeechUtteranceMaximumSpeechRate/2.5
+        habla1.voice=AVSpeechSynthesisVoice(language: "es-MX")
         
+        prenom.speak(habla1)
         
     }
 
-    @IBAction func boton1(_ sender: Any) {
-        let speechSynthesizer = AVSpeechSynthesizer()
-        
-        let speechUtterance: AVSpeechUtterance = AVSpeechUtterance(string: "Hola a todos")
-        
-        
-        speechUtterance.rate=AVSpeechUtteranceMaximumSpeechRate/2.5
-        speechUtterance.voice=AVSpeechSynthesisVoice(language: "es-MX")
-        
-        speechSynthesizer.speak(speechUtterance)
+    @IBOutlet weak var label: UITextField!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destino = segue.destination as! ViewController2
+        destino.nombre = label.text
     }
     
-    @IBAction func boton2(_ sender: Any) {
-        
-        let kari: AVSpeechUtterance = AVSpeechUtterance(string: "tommy")
-        let otra = AVSpeechSynthesizer()
-        kari.rate=AVSpeechUtteranceMaximumSpeechRate/2.5
-        kari.voice=AVSpeechSynthesisVoice(language: "es-MX")
-        otra.speak(kari)
-        
-    }
+    
+   
+    
+    
 }
 
