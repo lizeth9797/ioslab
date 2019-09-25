@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE767F37233BBCC400D47AAF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE767F36233BBCC400D47AAF /* TableViewController.swift */; };
+		BE767F39233BBD0800D47AAF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE767F38233BBD0800D47AAF /* TableViewCell.swift */; };
 		FFADADCC233AC91B007E3883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFADADCB233AC91B007E3883 /* AppDelegate.swift */; };
 		FFADADCE233AC91B007E3883 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFADADCD233AC91B007E3883 /* SceneDelegate.swift */; };
 		FFADADD0233AC91B007E3883 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFADADCF233AC91B007E3883 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE767F36233BBCC400D47AAF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BE767F38233BBD0800D47AAF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		FFADADC8233AC91B007E3883 /* TableView_SearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView_SearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFADADCB233AC91B007E3883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFADADCD233AC91B007E3883 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				FFADADD6233AC91C007E3883 /* LaunchScreen.storyboard */,
 				FFADADD9233AC91C007E3883 /* Info.plist */,
 				FFADADD3233AC91C007E3883 /* Preview Content */,
+				BE767F36233BBCC400D47AAF /* TableViewController.swift */,
+				BE767F38233BBD0800D47AAF /* TableViewCell.swift */,
 			);
 			path = TableView_SearchBar;
 			sourceTree = "<group>";
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE767F39233BBD0800D47AAF /* TableViewCell.swift in Sources */,
 				FFADADCC233AC91B007E3883 /* AppDelegate.swift in Sources */,
 				FFADADCE233AC91B007E3883 /* SceneDelegate.swift in Sources */,
 				FFADADD0233AC91B007E3883 /* ContentView.swift in Sources */,
+				BE767F37233BBCC400D47AAF /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
