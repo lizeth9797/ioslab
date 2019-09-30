@@ -10,9 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var fotoA: UIImageView!
+    @IBOutlet weak var nombreA: UILabel!
+    @IBOutlet weak var infoA: UILabel!
+    
+    //Inicializar variables
+    var fotoComida:UIImage
+    var nombreComida:String!
+    var infoComida:String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        //  hacemos la conexión
+        self.fotoA.image=fotoComida
+        self.nombreA.text=nombreComida
+        self.infoA.text=infoComida
+        //Para redondear la imagen
+        fotoA.layer.cornerRadius=125
+        //Animación
+        fotoA.clipsToBounds=true
     }
 
 
