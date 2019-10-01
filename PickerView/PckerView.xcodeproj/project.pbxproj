@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80286F09232DAAFF0012FA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80286F08232DAAFF0012FA0A /* AppDelegate.swift */; };
+		80286F0B232DAAFF0012FA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80286F0A232DAAFF0012FA0A /* ViewController.swift */; };
+		80286F0E232DAAFF0012FA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80286F0C232DAAFF0012FA0A /* Main.storyboard */; };
+		80286F10232DAB010012FA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80286F0F232DAB010012FA0A /* Assets.xcassets */; };
+		80286F13232DAB010012FA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80286F11232DAB010012FA0A /* LaunchScreen.storyboard */; };
+		80286F1E232DAB010012FA0A /* PckerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80286F1D232DAB010012FA0A /* PckerViewTests.swift */; };
+		80286F29232DAB010012FA0A /* PckerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80286F28232DAB010012FA0A /* PckerViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80286F1A232DAB010012FA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80286EFD232DAAFF0012FA0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80286F04232DAAFF0012FA0A;
+			remoteInfo = PckerView;
+		};
+		80286F25232DAB010012FA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80286EFD232DAAFF0012FA0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80286F04232DAAFF0012FA0A;
+			remoteInfo = PckerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80286F05232DAAFF0012FA0A /* PckerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PckerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80286F08232DAAFF0012FA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80286F0A232DAAFF0012FA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80286F0D232DAAFF0012FA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80286F0F232DAB010012FA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80286F12232DAB010012FA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80286F14232DAB010012FA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80286F19232DAB010012FA0A /* PckerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PckerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80286F1D232DAB010012FA0A /* PckerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PckerViewTests.swift; sourceTree = "<group>"; };
+		80286F1F232DAB010012FA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80286F24232DAB010012FA0A /* PckerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PckerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80286F28232DAB010012FA0A /* PckerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PckerViewUITests.swift; sourceTree = "<group>"; };
+		80286F2A232DAB010012FA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80286F02232DAAFF0012FA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80286F16232DAB010012FA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80286F21232DAB010012FA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80286EFC232DAAFF0012FA0A = {
+			isa = PBXGroup;
+			children = (
+				80286F07232DAAFF0012FA0A /* PckerView */,
+				80286F1C232DAB010012FA0A /* PckerViewTests */,
+				80286F27232DAB010012FA0A /* PckerViewUITests */,
+				80286F06232DAAFF0012FA0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80286F06232DAAFF0012FA0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80286F05232DAAFF0012FA0A /* PckerView.app */,
+				80286F19232DAB010012FA0A /* PckerViewTests.xctest */,
+				80286F24232DAB010012FA0A /* PckerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80286F07232DAAFF0012FA0A /* PckerView */ = {
+			isa = PBXGroup;
+			children = (
+				80286F08232DAAFF0012FA0A /* AppDelegate.swift */,
+				80286F0A232DAAFF0012FA0A /* ViewController.swift */,
+				80286F0C232DAAFF0012FA0A /* Main.storyboard */,
+				80286F0F232DAB010012FA0A /* Assets.xcassets */,
+				80286F11232DAB010012FA0A /* LaunchScreen.storyboard */,
+				80286F14232DAB010012FA0A /* Info.plist */,
+			);
+			path = PckerView;
+			sourceTree = "<group>";
+		};
+		80286F1C232DAB010012FA0A /* PckerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				80286F1D232DAB010012FA0A /* PckerViewTests.swift */,
+				80286F1F232DAB010012FA0A /* Info.plist */,
+			);
+			path = PckerViewTests;
+			sourceTree = "<group>";
+		};
+		80286F27232DAB010012FA0A /* PckerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80286F28232DAB010012FA0A /* PckerViewUITests.swift */,
+				80286F2A232DAB010012FA0A /* Info.plist */,
+			);
+			path = PckerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80286F04232DAAFF0012FA0A /* PckerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80286F2D232DAB010012FA0A /* Build configuration list for PBXNativeTarget "PckerView" */;
+			buildPhases = (
+				80286F01232DAAFF0012FA0A /* Sources */,
+				80286F02232DAAFF0012FA0A /* Frameworks */,
+				80286F03232DAAFF0012FA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PckerView;
+			productName = PckerView;
+			productReference = 80286F05232DAAFF0012FA0A /* PckerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80286F18232DAB010012FA0A /* PckerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80286F30232DAB010012FA0A /* Build configuration list for PBXNativeTarget "PckerViewTests" */;
+			buildPhases = (
+				80286F15232DAB010012FA0A /* Sources */,
+				80286F16232DAB010012FA0A /* Frameworks */,
+				80286F17232DAB010012FA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80286F1B232DAB010012FA0A /* PBXTargetDependency */,
+			);
+			name = PckerViewTests;
+			productName = PckerViewTests;
+			productReference = 80286F19232DAB010012FA0A /* PckerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80286F23232DAB010012FA0A /* PckerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80286F33232DAB010012FA0A /* Build configuration list for PBXNativeTarget "PckerViewUITests" */;
+			buildPhases = (
+				80286F20232DAB010012FA0A /* Sources */,
+				80286F21232DAB010012FA0A /* Frameworks */,
+				80286F22232DAB010012FA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80286F26232DAB010012FA0A /* PBXTargetDependency */,
+			);
+			name = PckerViewUITests;
+			productName = PckerViewUITests;
+			productReference = 80286F24232DAB010012FA0A /* PckerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80286EFD232DAAFF0012FA0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Paola Vanessa Orozco Del Angel";
+				TargetAttributes = {
+					80286F04232DAAFF0012FA0A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					80286F18232DAB010012FA0A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 80286F04232DAAFF0012FA0A;
+					};
+					80286F23232DAB010012FA0A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 80286F04232DAAFF0012FA0A;
+					};
+				};
+			};
+			buildConfigurationList = 80286F00232DAAFF0012FA0A /* Build configuration list for PBXProject "PckerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80286EFC232DAAFF0012FA0A;
+			productRefGroup = 80286F06232DAAFF0012FA0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80286F04232DAAFF0012FA0A /* PckerView */,
+				80286F18232DAB010012FA0A /* PckerViewTests */,
+				80286F23232DAB010012FA0A /* PckerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80286F03232DAAFF0012FA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80286F13232DAB010012FA0A /* LaunchScreen.storyboard in Resources */,
+				80286F10232DAB010012FA0A /* Assets.xcassets in Resources */,
+				80286F0E232DAAFF0012FA0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80286F17232DAB010012FA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80286F22232DAB010012FA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80286F01232DAAFF0012FA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80286F0B232DAAFF0012FA0A /* ViewController.swift in Sources */,
+				80286F09232DAAFF0012FA0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80286F15232DAB010012FA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80286F1E232DAB010012FA0A /* PckerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80286F20232DAB010012FA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80286F29232DAB010012FA0A /* PckerViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80286F1B232DAB010012FA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80286F04232DAAFF0012FA0A /* PckerView */;
+			targetProxy = 80286F1A232DAB010012FA0A /* PBXContainerItemProxy */;
+		};
+		80286F26232DAB010012FA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80286F04232DAAFF0012FA0A /* PckerView */;
+			targetProxy = 80286F25232DAB010012FA0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80286F0C232DAAFF0012FA0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80286F0D232DAAFF0012FA0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80286F11232DAB010012FA0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80286F12232DAB010012FA0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80286F2B232DAB010012FA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80286F2C232DAB010012FA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80286F2E232DAB010012FA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD8B582WHL;
+				INFOPLIST_FILE = PckerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.PckerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80286F2F232DAB010012FA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD8B582WHL;
+				INFOPLIST_FILE = PckerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.PckerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80286F31232DAB010012FA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD8B582WHL;
+				INFOPLIST_FILE = PckerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.PckerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PckerView.app/PckerView";
+			};
+			name = Debug;
+		};
+		80286F32232DAB010012FA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD8B582WHL;
+				INFOPLIST_FILE = PckerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.PckerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PckerView.app/PckerView";
+			};
+			name = Release;
+		};
+		80286F34232DAB010012FA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD8B582WHL;
+				INFOPLIST_FILE = PckerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.PckerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PckerView;
+			};
+			name = Debug;
+		};
+		80286F35232DAB010012FA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD8B582WHL;
+				INFOPLIST_FILE = PckerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNAM.PckerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PckerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80286F00232DAAFF0012FA0A /* Build configuration list for PBXProject "PckerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80286F2B232DAB010012FA0A /* Debug */,
+				80286F2C232DAB010012FA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80286F2D232DAB010012FA0A /* Build configuration list for PBXNativeTarget "PckerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80286F2E232DAB010012FA0A /* Debug */,
+				80286F2F232DAB010012FA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80286F30232DAB010012FA0A /* Build configuration list for PBXNativeTarget "PckerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80286F31232DAB010012FA0A /* Debug */,
+				80286F32232DAB010012FA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80286F33232DAB010012FA0A /* Build configuration list for PBXNativeTarget "PckerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80286F34232DAB010012FA0A /* Debug */,
+				80286F35232DAB010012FA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80286EFD232DAAFF0012FA0A /* Project object */;
+}

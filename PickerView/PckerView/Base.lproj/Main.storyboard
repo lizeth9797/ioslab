@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PckerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo2" translatesAutoresizingMaskIntoConstraints="NO" id="krC-C9-G6Z">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agencia de Viajes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiQ-zY-eEm">
+                                <rect key="frame" x="10" y="30" width="394" height="50"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="39"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Destino: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1f0-jN-qFa">
+                                <rect key="frame" x="8" y="176" width="159" height="50"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="39"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1LB-vC-AsX" colorLabel="IBBuiltInLabel-Gray">
+                                <rect key="frame" x="159" y="93" width="255" height="216"/>
+                                <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="vug-xO-7TW"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="vvf-hy-hLO"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cND-02-tXn">
+                                <rect key="frame" x="45" y="317" width="324" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gAl-98-cF7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="39"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3J2-Fu-Zjn">
+                                <rect key="frame" x="36" y="374" width="343" height="330"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="330" id="pUd-Ll-pvL"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3J2-Fu-Zjn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="6Ww-1K-Ttg"/>
+                            <constraint firstItem="cND-02-tXn" firstAttribute="top" secondItem="1LB-vC-AsX" secondAttribute="bottom" constant="8" symbolic="YES" id="An2-sf-cZm"/>
+                            <constraint firstItem="1LB-vC-AsX" firstAttribute="top" secondItem="RiQ-zY-eEm" secondAttribute="bottom" constant="13" id="EuJ-tn-Mns"/>
+                            <constraint firstItem="1LB-vC-AsX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="Ly1-yb-g17"/>
+                            <constraint firstAttribute="trailing" secondItem="cND-02-tXn" secondAttribute="trailing" constant="45" id="Mpc-Lb-dpd"/>
+                            <constraint firstItem="1LB-vC-AsX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Tvd-wB-rD1"/>
+                            <constraint firstItem="RiQ-zY-eEm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Yw7-rQ-oow"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="krC-C9-G6Z" secondAttribute="bottom" id="ZYY-we-qn8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RiQ-zY-eEm" secondAttribute="trailing" constant="10" id="b4y-K0-97N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="krC-C9-G6Z" secondAttribute="trailing" id="ceu-VD-hsD"/>
+                            <constraint firstItem="krC-C9-G6Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dML-Jy-9mR"/>
+                            <constraint firstItem="1f0-jN-qFa" firstAttribute="top" secondItem="RiQ-zY-eEm" secondAttribute="bottom" constant="96" id="eoE-kD-wvU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3J2-Fu-Zjn" secondAttribute="trailing" constant="35" id="iyJ-Nd-4in"/>
+                            <constraint firstItem="cND-02-tXn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="45" id="ntV-o9-weM"/>
+                            <constraint firstItem="RiQ-zY-eEm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="opI-OT-Xri"/>
+                            <constraint firstItem="krC-C9-G6Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="out-7I-IeN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1f0-jN-qFa" secondAttribute="trailing" constant="247" id="s8e-6A-iwf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3J2-Fu-Zjn" secondAttribute="bottom" constant="133" id="uQW-tP-oey"/>
+                            <constraint firstItem="1f0-jN-qFa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="wKN-Ne-SFS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="3J2-Fu-Zjn" id="e0I-Jq-Z1F"/>
+                        <outlet property="labelDestino" destination="cND-02-tXn" id="Ih0-t6-pCd"/>
+                        <outlet property="picker" destination="1LB-vC-AsX" id="ead-gz-H1O"/>
+                        <outlet property="pickerOutlet" destination="1LB-vC-AsX" id="tX1-tS-yQb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fondo2" width="175" height="291"/>
+    </resources>
+</document>
