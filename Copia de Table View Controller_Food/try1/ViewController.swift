@@ -27,15 +27,12 @@ class ViewController: UIViewController {
         self.nombreA.text=nombreC
         self.infoA.text=infoC
         
-        /*Para redondear la imagen
+        //Para redondear la imagen
         fotoA.layer.cornerRadius=125
         //Animación
-        fotoA.clipsToBounds=true*/
+        fotoA.clipsToBounds=true
     }
 
 
-    
-    
-    
 }
 

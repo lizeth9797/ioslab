@@ -27,18 +27,10 @@ class TableViewController: UITableViewController {
     
     let comida : [Comida] =
     [
-        Comida(from: "Huevos al gusto\n(Jamón,tocino,salchicha,chorizo,nopal,mexicana,estrellados)", from: "huevos_r", from: "$34"),
-        Comida(from: "Omelette al gusto", from: "chilaquiles", from: "$34"),
-        Comida(from: "Chilaquiles sencillos", from: "torta", from: "$35"),
-        Comida(from: "Chilaquiles c/huevo", from: "torta", from: "$42"),
-        Comida(from: "Chilaquiles c/pollo", from: "torta", from: "$42"),
-        Comida(from: "Molletes", from: "torta", from: "$42"),
-        Comida(from: "Molletes preparados", from: "torta", from: "$42"),
-        Comida(from: "Mollequiles", from: "torta", from: "$42"),
-        Comida(from: "Hot Cakes sencillos", from: "torta", from: "$42"),
-        Comida(from: "Hot Cakes preparados", from: "torta", from: "$42"),
-        Comida(from: "Sincronizada", from: "torta", from: "$42"),
-        Comida(from: "Nopal c/queso panela asado", from: "torta", from: "$42")
+        Comida(from: "omelette de queso", from: "huevos_r", from: "Tel: 00\nCorreo: @gmail.com"),
+        Comida(from: "Chilaquiles pollo", from: "chilaquiles", from: "Tel: 00\nCorreo: @gmail.com"),
+        Comida(from: "Torta Cubana", from: "torta", from: "Tel: 00\nCorreo: maug@gmail.com"),
+        Comida(from: "Torta Cubana", from: "torta", from: "Tel: 00\nCorreo: maug@gmail.com") 
     ]
     
     override func viewDidLoad() {
