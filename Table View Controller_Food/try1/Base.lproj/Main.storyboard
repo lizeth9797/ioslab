@@ -85,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="489.85507246376818" y="-521.65178571428567"/>
+            <point key="canvasLocation" x="648" y="-1325"/>
         </scene>
         <!--Desayunos-->
         <scene sceneID="7AQ-Bb-xvV">
@@ -127,7 +127,7 @@
                                     <outlet property="fotoComida" destination="nKf-Ha-vqL" id="meK-Es-B8b"/>
                                     <outlet property="infoComida" destination="C1n-3c-Vas" id="c6l-N9-JXT"/>
                                     <outlet property="nombreComida" destination="bcA-cv-CPy" id="v7O-vg-Gc5"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="InfoComida" id="haV-1i-DuR"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="InfoDesayuno" id="haV-1i-DuR"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -142,7 +142,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ZL-S6-vY2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-352.17391304347831" y="-521.65178571428567"/>
+            <point key="canvasLocation" x="-138" y="-1326"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="u30-7c-tO5">
@@ -164,6 +164,9 @@
                                 <rect key="frame" x="175" y="405" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Paquetes"/>
+                                <connections>
+                                    <segue destination="DJ2-Sw-DlV" kind="show" id="a5P-zC-vhF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -193,13 +196,13 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6rY-ru-6em" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3494" y="251"/>
+            <point key="canvasLocation" x="-2942" y="-95"/>
         </scene>
-        <!--Desayuno-->
+        <!--MENÚ-->
         <scene sceneID="AHm-Sy-AOf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HkV-tJ-VBY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Desayuno" id="BZh-zJ-Kc0"/>
+                    <tabBarItem key="tabBarItem" title="MENÚ" id="BZh-zJ-Kc0"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xfa-A2-gx8">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -213,6 +216,139 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w4G-Au-Svp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2162" y="-95"/>
+        </scene>
+        <!--Cpaquete-->
+        <scene sceneID="frE-GS-k9b">
+            <objects>
+                <viewController id="oY0-Qk-rg5" customClass="VCpaquete" customModule="try1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QWW-O3-Z6u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tK4-W6-6Tt">
+                                <rect key="frame" x="44" y="330" width="327" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2U-ar-PaD">
+                                <rect key="frame" x="175" y="445" width="65" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jDr-B2-LHw">
+                                <rect key="frame" x="87" y="187" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7oh-2r-ei8">
+                                <rect key="frame" x="87" y="504" width="240" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74117647060000003" green="0.89019607840000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">INCLUYE:                                                   jugo y fruta + café o té o leche                                                      Servidos de 07:00 hrs a 12:30 hrs</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agregar al carrito" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2F-DL-KrL">
+                                <rect key="frame" x="262" y="719" width="143" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3b-4C-ElX">
+                                <rect key="frame" x="335" y="748" width="36" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="tray.fill" catalog="system"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vF2-a5-Q4I">
+                                <rect key="frame" x="99" y="615" width="272" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nAh-VD-D4U"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vs5-Mr-hvj"/>
+                    <connections>
+                        <outlet property="fotoA" destination="jDr-B2-LHw" id="Ff5-NK-JyN"/>
+                        <outlet property="fotoP" destination="jDr-B2-LHw" id="sIg-rR-rrr"/>
+                        <outlet property="infoA" destination="M2U-ar-PaD" id="Sw4-qA-lTM"/>
+                        <outlet property="infoP" destination="vF2-a5-Q4I" id="aYh-2b-bmo"/>
+                        <outlet property="nombreA" destination="tK4-W6-6Tt" id="vk7-xR-Bc6"/>
+                        <outlet property="nombreP" destination="tK4-W6-6Tt" id="sTf-WA-z6C"/>
+                        <outlet property="precioP" destination="M2U-ar-PaD" id="8Js-GB-83d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xen-bg-oPi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="672.46376811594212" y="-650.22321428571422"/>
+        </scene>
+        <!--Paquetes Desayuno-->
+        <scene sceneID="uQg-rS-1kH">
+            <objects>
+                <tableViewController id="DJ2-Sw-DlV" customClass="TVCpaquete" customModule="try1" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sr4-Pw-qqe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CeldaPaquete" rowHeight="150" id="lnE-Kd-RXQ" customClass="TVCellpaquete" customModule="try1" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lnE-Kd-RXQ" id="zCW-Su-4lT">
+                                    <rect key="frame" x="0.0" y="0.0" width="383" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAb-jS-xHA">
+                                            <rect key="frame" x="5" y="6" width="164" height="137"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eM-qN-pbZ">
+                                            <rect key="frame" x="193" y="24" width="182" height="58"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFm-Fj-li3">
+                                            <rect key="frame" x="206" y="95" width="46" height="48"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="fotoComida" destination="dAb-jS-xHA" id="120-oa-H5P"/>
+                                    <outlet property="fotoPaquete" destination="dAb-jS-xHA" id="Okb-fN-S6y"/>
+                                    <outlet property="infoComida" destination="EFm-Fj-li3" id="nkH-vd-mgD"/>
+                                    <outlet property="nombreComida" destination="6eM-qN-pbZ" id="csc-z3-8Fa"/>
+                                    <outlet property="nombrePaquete" destination="6eM-qN-pbZ" id="fc0-ch-qDB"/>
+                                    <outlet property="precioPaquete" destination="EFm-Fj-li3" id="yOS-Q3-3qp"/>
+                                    <segue destination="oY0-Qk-rg5" kind="show" identifier="InfoPaquete" id="S1N-fK-i5L"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="DJ2-Sw-DlV" id="Sdr-P3-Hcg"/>
+                            <outlet property="delegate" destination="DJ2-Sw-DlV" id="DeF-4u-GEH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Paquetes Desayuno" id="sf9-lg-Gy8">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="ReG-LN-UPi"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ayE-Xe-Jrc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-138" y="-651"/>
         </scene>
     </scenes>
     <resources>

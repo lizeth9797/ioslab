@@ -71,7 +71,7 @@ class TableViewController: UITableViewController {
     //Pasar los objetos de la clase TableViewController a la clase ViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
-        if segue.identifier == "InfoComida"
+        if segue.identifier == "InfoDesayuno"
         {
             if let indexPath = self.tableView.indexPathForSelectedRow
             {
